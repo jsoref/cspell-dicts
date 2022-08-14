@@ -1,0 +1,129 @@
+name: Adapt Dictionaries
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to compact'
+        required: false
+        default: main
+      check-spelling:
+        description: 'Organization with check-spelling repository containing action.yml'
+        required: false
+        default: check-spelling
+      manifest:
+        description: 'Branch of check-spelling to use to retrieve action.yml'
+        required: false
+        default: main
+
+jobs:
+  dictionaries:
+    name: Select Dictionaries
+    runs-on: ubuntu-latest
+    outputs:
+      dictionaries: ${{ steps.dictionaries.outputs.dictionaries }}
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ inputs.branch }}
+    - name: select dictionaries
+      id: dictionaries
+      shell: bash
+      run: |
+        action=$(mktemp)
+        curl -sL 'https://raw.githubusercontent.com/${{ inputs.check-spelling }}/check-spelling/${{ inputs.manifest }}/action.yml' > "$action"
+        files=$(mktemp)
+        (
+          cd dictionaries
+          perl -ne 'next unless s/^\s*cspell://;my $file=$_; chomp $file; print if -e $file' "$action"
+        ) > "$files"
+        echo "::set-output name=dictionaries::[$(perl -ne 'next unless s/^(\S+)\n/"$1",/;print' "$files"|perl -pe 's/,$//')]"
+        archive=$(mktemp -d)/archive.zip
+        (cd dictionaries; zip "$archive" $(cat $files))
+        echo "::set-output name=archive::$archive"
+    - name: upload
+      uses: actions/upload-artifact@v3
+      with:
+        name: "dictionaries"
+        retention-days: 1
+        path: ${{ steps.dictionaries.outputs.archive }}
+
+  spelling:
+    name: Check Spelling
+    needs: dictionaries
+    strategy:
+      fail-fast: false
+      matrix:
+        dictionary: ${{fromJson(needs.dictionaries.outputs.dictionaries)}}
+    runs-on: ubuntu-latest
+    steps:
+    - name: retrieve files
+      uses: actions/download-artifact@v3
+      with:
+        name: dictionaries
+        path: /tmp/archive
+    - name: setup check
+      shell: bash
+      run: |
+        mkdir -p .github/actions/spelling
+        echo '\Q${{ matrix.dictionary }}\E$' > .github/actions/spelling/only.txt
+        unzip /tmp/archive/*.zip "${{ matrix.dictionary }}"
+        git init -b main
+        git config user.name "check-spelling-bot"
+        git config user.email "61132855+check-spelling-bot@users.noreply.github.com"
+        git add .
+        git commit -m 'Prepare for check-spelling'
+    - name: check-spelling
+      id: spelling
+      uses: jsoref/check-spelling@prerelease
+      with:
+        event_aliases: '{"workflow_dispatch":"push"}'
+        suppress_push_for_open_pull_request: 1
+        checkout: false
+        post_comment: 0
+        check_extra_dictionaries: ''
+        largest_file: 1500000
+        quit_without_error: 1
+        disable_checks: noisy-file,word-collating
+    - name: rename output
+      id: rename
+      shell: bash
+      run: |
+        rm -rf .github
+        if [ -s /tmp/*/unknown.words.txt ]; then
+          mv /tmp/*/unknown.words.txt "${{ matrix.dictionary }}"
+        else
+          rm "${{ matrix.dictionary }}"
+        fi
+        rm -rf .git .github
+    - name: collect output
+      uses: actions/upload-artifact@v3
+      with:
+        name: reduced-dictionaries
+        path: .
+
+  update:
+    name: Update dictionaries
+    needs: spelling
+    runs-on: ubuntu-latest
+    steps:
+    - name: setup
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ inputs.branch }}
+    - name: retrieve files
+      uses: actions/download-artifact@v3
+      with:
+        name: reduced-dictionaries
+        path: /tmp/reduced/
+    - name: collate
+      shell: bash
+      run: |
+        rsync -a /tmp/reduced/* dictionaries/
+        git config user.name "check-spelling-bot"
+        git config user.email "61132855+check-spelling-bot@users.noreply.github.com"
+        git add -u
+        git commit -m 'Reduce dictionaries'
+        git push origin HEAD
+
