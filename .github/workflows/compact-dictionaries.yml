@@ -83,7 +83,7 @@ jobs:
         checkout: false
         post_comment: 0
         check_extra_dictionaries: ''
-        largest_file: 1500000
+        largest_file: 1750000
         quit_without_error: 1
         disable_checks: noisy-file,word-collating
     - name: rename output
