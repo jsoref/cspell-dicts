@@ -38,10 +38,10 @@ jobs:
           cd dictionaries
           perl -ne 'next unless s/^\s*cspell://;my $file=$_; chomp $file; print if -e $file' "$action"
         ) > "$files"
-        echo "::set-output name=dictionaries::[$(perl -ne 'next unless s/^(\S+)\n/"$1",/;print' "$files"|perl -pe 's/,$//')]"
+        echo "dictionaries=[$(perl -ne 'next unless s/^(\S+)\n/"$1",/;print' "$files"|perl -pe 's/,$//')]" >> "$GITHUB_OUTPUT"
         archive=$(mktemp -d)/archive.zip
         (cd dictionaries; zip "$archive" $(cat $files))
-        echo "::set-output name=archive::$archive"
+        echo "archive=$archive" >> "$GITHUB_OUTPUT"
     - name: upload
       uses: actions/upload-artifact@v3
       with:
