@@ -1,60 +1,44 @@
-# https://en.cppreference.com/w/cpp/keyword
 alignas
 alignof
 asm
 bitand
 bitor
-bool
 compl
-const
 consteval
 constexpr
 constinit
+cpp
+cppreference
 decltype
-enum
-extern
-goto
-namespace
-noexcept
-nullptr
-reflexpr
-sizeof
-struct
-structs # not an actual keyword
-typedef
-typedefs # not an actual keyword
-typeid
-typename
-wchar
-
-# preprocessor things
+deref
 elif
 endif
+enum
+fallthrough
+glvalue
+https
 ifdef
 ifndef
-undef
-pragma
-
-# attributes
-noreturn
-fallthrough
+namespace
 nodiscard
-
-# https://en.cppreference.com/w/cpp/language/value_category
-glvalue
-prvalue
-xvalue
-lvalue
-rvalue
-
-trigraph
-udls # plural of UDL (user-defined-literal)
-
-# not really keywords. just contractions.
-builtin
-deref
-
-# clang-tidy lint comments
+noexcept
 NOLINT
 NOLINTBEGIN
 NOLINTEND
+noreturn
+nullptr
+pragma
+prvalue
+reflexpr
+rvalue
+sizeof
+structs
+typedef
+typedefs
+typeid
+typename
+UDL
+udls
+undef
+wchar
+xvalue

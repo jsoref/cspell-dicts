@@ -1,17 +1,23 @@
-# https://hackingcpp.com/cpp/people.html
-# https://isocpp.org/wiki/faq/wg21
-# reminder: many omissions are simply because their names are already in other common dictionaries- not because they aren't worth mentioning.
-# cspell:ignore hana
-
+alexandrescu
+andrei
 bjarne
+carruth
+cpp
+cspell
+dusikova
+eerd
+godbolt
+hackingcpp
+hana
+html
+https
+isocpp
+lavavej
+lefticus
+lippincott
+lisa
+niebler
+stepanov
+stephan
 stroustrup
-stepanov # (alexander)
-alexandrescu # (andrei)
-carruth # (chandler)
-niebler # (eric)
-dusikova # (hana)
-lefticus # (jason turner)
-godbolt # (matt)
-lavavej # (stephan)
-eerd # (tony)
-lippincott # (lisa)
+wiki
