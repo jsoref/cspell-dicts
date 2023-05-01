@@ -7,7 +7,6 @@ CROHME
 crowdsourcing
 denoising
 Detexify
-Douglas-Peucker
 Finke
 hwrt
 hyperparamter
@@ -17,16 +16,12 @@ ntheorem
 pdfkeywords
 pdfsubject
 pdftitle
-perceptron
 Perceptron
+perceptron
 Perceptrons
+Peucker
 preactivation
 pretrained
-pretraining
-resample
-resampled
-resampling
 softmax
 testerror
-Thoma
 Waibel

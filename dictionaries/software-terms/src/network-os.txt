@@ -1,9 +1,6 @@
 arubaos
 asaos
-eos
-ios
 iosxr
-ise
 isoxe
 junoos
 junos

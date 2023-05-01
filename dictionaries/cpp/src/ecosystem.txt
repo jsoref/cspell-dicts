@@ -1,70 +1,15 @@
+asio
+cmake
+conan
+cpp
 cppcon
 cppcoreguidelines
 cpponsea
 cppref
 cppreference
-isocpp
-
-# compilers
-gnu
-gcc
-clang
-llvm # also included in the dictionary "softwareTerms"
-msvc
-emscripten
-pybind
-
-sysroot
-
-# standard libraries
-libc
-libc++
-libstdc++
-eastl
-
-# target platforms (OS)
-msys
 cygwin
-posix
-
-# build systems
-cmake
-ninja
-make
-msbuild
-spack
-
-# package/dependency managers
-conan
-vcpkg
-CPM
-
-# working groups
-WG21
-LEWG
-
-# tools
-objdump
-natvis
-gdb
-lldb
-
-# graphics
-cuda
-vulkan
-
-# common-ish libraries
-# https://en.cppreference.com/w/cpp/links/libs
-fmt
 doctest
-abseil
-imgui
-poco
-protobuf
-nlohmann
-asio
-
-# emscripten
+eastl
 emar
 embuilder
 emcc
@@ -75,10 +20,32 @@ emdwp
 emmake
 emnm
 emprofile
-#em++
 emranlib
 emscons
+emscripten
 emsdk
 emsize
 emstrip
 emsymbolizer
+gcc
+gdb
+https
+imgui
+isocpp
+LEWG
+libc
+libstdc
+lldb
+llvm
+msbuild
+msvc
+msys
+natvis
+nlohmann
+objdump
+posix
+protobuf
+pybind
+sysroot
+vcpkg
+vulkan

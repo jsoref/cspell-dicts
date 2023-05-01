@@ -1,5 +1,6 @@
-# https://en.cppreference.com/w/cpp/header/cerrno
 cerrno
+cpp
+cppreference
 eacces
 eaddrinuse
 eaddrnotavail
@@ -37,7 +38,6 @@ enametoolong
 enetdown
 enetreset
 enetunreach
-enfile
 enobufs
 enodata
 enodev
@@ -77,3 +77,4 @@ etimedout
 etxtbsy
 ewouldblock
 exdev
+https
