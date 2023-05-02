@@ -1,184 +1,152 @@
 Addons
 admissionregistration
-aggregator
-allocatable
-alt
-api (API, api, apis)
+api
 apiextensions
 apimachinery
 apiregistration
 apiserver
 apiserverinternal
 APIV
-app (app, apps)
+apps
 args
-attacher
 auditregistration
-Auth
-authenticator
 automount
 Autoscaler
 autoscaling
-aws (AWS, aws)
-backend (Backend, backend)
-backoff
-Balancer
-Bool
-builtin (builtin, builtins)
+AWS
+aws
+Backend
+backend
+builtins
 Ceph
 cephfs
 certs
-cidr (CIDR, cidr, CIDRs)
-com
-completions
-config (Config, config)
+CIDR
+cidr
+CIDRs
+Config
+config
 coralogix
 coreos
-cpu (CPU, cpu)
 Cron
-csi (CSI, csi)
-dataset
-decodable
-diff
-dir (Dir, dir)
-distinguisher (Distinguisher, distinguisher)
-dns (DNS, dns)
-endpoint (Endpoint, Endpoints, endpoints)
+dns
 enum
-env (Env, env)
-etc
 Expr
-fallback
-FAQ
 Filesystem
 finalizers
-flocker (Flocker, flocker)
-flowcontrol
-foo
-FQDN
-gce (GCE, gce)
+gce
 gcr
-git (Git, git)
 github
 githubusercontent
-glusterfs (Glusterfs, glusterfs)
+Glusterfs
+glusterfs
 gmsa
-grpc (GRPC, grpc)
+GRPC
+grpc
 hackage
 hardcoding
 haskell
 haskellstack
 heptio
-hostname (Hostname, hostname, hostnames)
+Hostname
+hostname
+hostnames
 HPA
 html
-http (HTTP, http, https)
+HTTP
+http
+https
 iam
 img
-init
-initializer (Initializer, Initializers, initializers)
-int (Int, int)
 intstr
-IPC
-IPs
 ipv
 iqn
-iscsi (ISCSI, iscsi)
-json (JSON, json)
+ISCSI
+iscsi
+JSON
+json
 keyring
 kube
 kubeconfig
 kubelet
-kubernetes (Kubernetes, kubernetes)
-lang
-lifecycle (Lifecycle, lifecycle)
-liveness
+Kubernetes
+kubernetes
+Lifecycle
+lifecycle
 localhost
 lun
-max
-meta (Meta, meta)
-metadata (Metadata, metadata)
-Micro
-min
+Metadata
+metadata
 Misscheduled
-modularize
 nameservers
-namespace (Namespace, namespace, namespaces)
+Namespace
+namespace
 namespaced
+namespaces
 nethack
-nfs (NFS, nfs)
-nginx (Nginx, nginx)
+nfs
+Nginx
+nginx
 nixos
-nixpkgs (Nixpkgs, nixpkgs)
-nullable
+Nixpkgs
+nixpkgs
 openapi
-org
-parametric
-parametrized
-PID
-pkg (pkg, pkgs)
-portworx (Portworx, portworx)
-pre
+Portworx
+portworx
 prefetch
-proc (Proc, proc)
-prometheus
-provisioner
 qos
 qps
 Quickstart
-quobyte (Quobyte, quobyte)
+Quobyte
+quobyte
 rbac
-rbd (RBD, rbd)
-readme (README, readme)
+RBD
+rbd
+README
+readme
 reinvocation
-repo (Repo, repo)
-resize
 runing
-runtime (Runtime, runtime)
-schemas
-seccomp (Seccomp, seccomp)
-sha
+Seccomp
+seccomp
 src
 srv
 ssl
-startup
-Stateful
 stdin
 storageos
 subdomain
-submodules (Submodules, submodules)
-subproject
-subresource (Subresource, subresource, Subresources, subresources)
+Subresource
+subresource
+Subresources
+subresources
 svg
-sysctl (Sysctl, Sysctls, sysctls)
-tcp (TCP, tcp)
+Sysctl
+sysctl
+Sysctls
+sysctls
+tcp
 templating
 Terraform
-that'll
-timeout
-Timestamp
-tls (TLS, tls)
-tolerations
-Topologies
+TLS
+tls
 ttl
-tty
-txt
 typecheck
 typoed
 uid
-Unsatisfiable
 unschedulable
 URI
-url (url, URLs)
+url
+URLs
 username
-util
 UUID
-var (Var, var)
-vsphere (Vsphere, vsphere)
-webhook (Webhook, webhook, webhooks)
+Vsphere
+vsphere
+Webhook
+webhook
+webhooks
 webserver
 wikipedia
 wwids
 WWNs
 xss
-yaml (YAML, yaml)
+YAML
+yaml
