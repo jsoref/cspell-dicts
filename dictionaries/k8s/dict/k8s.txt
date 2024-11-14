@@ -320,6 +320,7 @@ kube
 kubeProxyVersion
 kubeadm
 kubebuilder
+kubectl
 kubelet
 kubeletConfigKey
 kubeletEndpoint
