@@ -24,7 +24,7 @@ jobs:
       dictionaries: ${{ steps.dictionaries.outputs.dictionaries }}
     steps:
     - name: checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: ${{ inputs.branch }}
     - name: select dictionaries
@@ -43,7 +43,7 @@ jobs:
         (cd dictionaries; zip "$archive" $(cat $files))
         echo "archive=$archive" >> "$GITHUB_OUTPUT"
     - name: upload
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: "dictionaries"
         retention-days: 1
@@ -59,7 +59,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: retrieve files
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: dictionaries
         path: /tmp/archive
@@ -76,7 +76,7 @@ jobs:
         git commit -m 'Prepare for check-spelling'
     - name: check-spelling
       id: spelling
-      uses: jsoref/check-spelling@prerelease
+      uses: check-spelling/check-spelling@prerelease
       with:
         event_aliases: '{"workflow_dispatch":"push"}'
         suppress_push_for_open_pull_request: 1
@@ -98,9 +98,9 @@ jobs:
         fi
         rm -rf .git .github
     - name: collect output
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: reduced-dictionaries
+        name: reduced-dictionaries-${{ matrix.dictionary }}
         path: .
 
   update:
@@ -109,13 +109,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: setup
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: ${{ inputs.branch }}
     - name: retrieve files
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
-        name: reduced-dictionaries
+        pattern: reduced-dictionaries-*
+        merge-multiple: true
         path: /tmp/reduced/
     - name: collate
       shell: bash
