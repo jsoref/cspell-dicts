@@ -53,7 +53,16 @@ jobs:
         files=$(mktemp)
         (
           cd dictionaries
-          perl -ne 'next unless s/^\s*cspell://;my $file=$_; chomp $file; print if -e $file' "$action"
+          git ls-files |
+            filter=$(
+              perl -ne 'next unless s/^\s*cspell://;s!(.*?)(?:/.*/|/)(.*)!
+                quotemeta(quotemeta($1)) .
+                "(?:/|/.*/)" .
+                quotemeta(quotemeta($2))!e;
+                print' "$action" |
+              xargs|
+              tr ' ' '|'
+            ) perl -ne 'next unless /$ENV{filter}/;print'
         ) > "$files"
         echo "dictionaries=[$(perl -ne 'next unless s/^(\S+)\n/"$1",/;print' "$files"|perl -pe 's/,$//')]" >> "$GITHUB_OUTPUT"
         (cd dictionaries; zip "$archive" $(cat $files))
@@ -151,5 +160,25 @@ jobs:
         git config user.email "61132855+check-spelling-bot@users.noreply.github.com"
         git add -u
         git commit -m 'Reduce dictionaries'
+
+        for src in $(
+          (
+            git ls-files 'dictionaries/*/dict/*.txt'
+            git ls-files 'dictionaries/*/src/*.txt'
+          ) |
+            grep -vi -E '/license|_license|readme|source-files|wordlist'
+          ); do
+          dict=$(echo "$src"| perl -p -e 's#/src/#/dict/#')
+          dest=$(echo "$src"| perl -p -e 's#/src/|/dict/#/#')
+          if [ ! -e "$dest" ]; then
+            mkdir -p $(dirname "$dest")
+            if [ -e "$dict" ]; then
+              git mv "$dict" "$dest"
+            else
+              git mv "$src" "$dest"
+            fi
+          fi
+        done
+        git commit -m 'Reorganize dictionaries' || true
         git push origin HEAD
 
