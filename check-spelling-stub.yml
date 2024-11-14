@@ -1,0 +1,33 @@
+name: "Check Spelling Stub"
+description: "Spell check code and commits"
+inputs:
+  post_comment:
+    description:
+  check_extra_dictionaries:
+    description:
+  event_aliases:
+    description:
+  suppress_push_for_open_pull_request:
+    description:
+  largest_file:
+    description:
+  quit_without_error:
+    description:
+  checkout:
+    description:
+  disable_checks:
+    description:
+
+runs:
+  using: "composite"
+  steps:
+    - uses: CHECK_SPELLING/check-spelling@VERSION
+      with:
+        event_aliases: ${{ inputs.event_aliases }}
+        suppress_push_for_open_pull_request: ${{ inputs.suppress_push_for_open_pull_request }}
+        checkout: ${{ inputs.checkout }}
+        post_comment: ${{ inputs.post_comment }}
+        check_extra_dictionaries: ${{ inputs.check_extra_dictionaries }}
+        largest_file: ${{ inputs.largest_file }}
+        quit_without_error: ${{ inputs.quit_without_error }}
+        disable_checks: ${{ inputs.disable_checks }}

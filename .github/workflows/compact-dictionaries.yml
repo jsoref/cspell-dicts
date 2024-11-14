@@ -25,21 +25,37 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v4
+    - name: prepare archive
+      shell: bash
+      env:
+        check_spelling: ${{ inputs.check-spelling }}
+        manifest: ${{ inputs.manifest }}
+      run: |
+        : Prepare archive
+        archive=$(mktemp -d)/archive.zip
+        echo "archive=$archive" >> $GITHUB_ENV
+        perl -pi -e 's<CHECK_SPELLING><$ENV{check_spelling}>;s<VERSION><$ENV{manifest}>' check-spelling-stub.yml
+        zip "$archive" check-spelling-stub.yml
+    - name: checkout
+      uses: actions/checkout@v4
       with:
         ref: ${{ inputs.branch }}
     - name: select dictionaries
       id: dictionaries
       shell: bash
+      env:
+        check_spelling: ${{ inputs.check-spelling }}
+        manifest: ${{ inputs.manifest }}
       run: |
+        : Select dictionaries
         action=$(mktemp)
-        curl -sL 'https://raw.githubusercontent.com/${{ inputs.check-spelling }}/check-spelling/${{ inputs.manifest }}/action.yml' > "$action"
+        curl -sL "https://raw.githubusercontent.com/$check_spelling/check-spelling/refs/heads/$manifest/action.yml" > "$action"
         files=$(mktemp)
         (
           cd dictionaries
           perl -ne 'next unless s/^\s*cspell://;my $file=$_; chomp $file; print if -e $file' "$action"
         ) > "$files"
         echo "dictionaries=[$(perl -ne 'next unless s/^(\S+)\n/"$1",/;print' "$files"|perl -pe 's/,$//')]" >> "$GITHUB_OUTPUT"
-        archive=$(mktemp -d)/archive.zip
         (cd dictionaries; zip "$archive" $(cat $files))
         echo "archive=$archive" >> "$GITHUB_OUTPUT"
     - name: upload
@@ -64,19 +80,25 @@ jobs:
         name: dictionaries
         path: /tmp/archive
     - name: setup check
+      env:
+        dictionary: ${{ matrix.dictionary }}
       shell: bash
       run: |
+        : Create sandbox
         mkdir -p .github/actions/spelling
-        echo '\Q${{ matrix.dictionary }}\E$' > .github/actions/spelling/only.txt
-        unzip /tmp/archive/*.zip "${{ matrix.dictionary }}"
+        echo '\Q'"$dictionary"'\E$' > .github/actions/spelling/only.txt
+        unzip /tmp/archive/*.zip "$dictionary"
         git init -b main
         git config user.name "check-spelling-bot"
         git config user.email "61132855+check-spelling-bot@users.noreply.github.com"
         git add .
         git commit -m 'Prepare for check-spelling'
+        : Create stub action
+        mkdir -p ../actions/check-spelling
+        unzip -p /tmp/archive/*.zip check-spelling-stub.yml > ../actions/check-spelling/action.yml
     - name: check-spelling
       id: spelling
-      uses: check-spelling/check-spelling@prerelease
+      uses: ./../actions/check-spelling
       with:
         event_aliases: '{"workflow_dispatch":"push"}'
         suppress_push_for_open_pull_request: 1
@@ -89,18 +111,21 @@ jobs:
     - name: rename output
       id: rename
       shell: bash
+      env:
+        dictionary: ${{ matrix.dictionary }}
       run: |
         rm -rf .github
         if [ -s /tmp/*/unknown.words.txt ]; then
-          mv /tmp/*/unknown.words.txt "${{ matrix.dictionary }}"
+          mv /tmp/*/unknown.words.txt "$dictionary"
         else
-          rm "${{ matrix.dictionary }}"
+          rm "$dictionary"
         fi
         rm -rf .git .github
+        echo "name=$(echo "$dictionary" | tr '/' '-')" >> $GITHUB_ENV
     - name: collect output
       uses: actions/upload-artifact@v4
       with:
-        name: reduced-dictionaries-${{ matrix.dictionary }}
+        name: reduced-dictionaries-${{ env.name }}
         path: .
 
   update:
