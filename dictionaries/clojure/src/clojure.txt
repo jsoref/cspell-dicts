@@ -1,6 +1,4 @@
 aclone
-aget
-alength
 amap
 areduce
 arglists
@@ -12,7 +10,6 @@ cbrt
 classnames
 classpath
 concat
-cond
 condp
 datafy
 dedupe
@@ -54,8 +51,6 @@ macroexpand
 mapcat
 mapv
 memfn
-monoid
-munge
 nfirst
 nnext
 nthnext

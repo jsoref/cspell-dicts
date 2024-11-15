@@ -1,15 +1,12 @@
-
-# cspell-tools: keep-case no-split
-
 Apigee
 Appointedd
 bunnycdn
 calendly
 caniuse
 cdnjs
+cspell
 gcr
 imessage
-io
 jsdelivr
 musixmatch
 netlify

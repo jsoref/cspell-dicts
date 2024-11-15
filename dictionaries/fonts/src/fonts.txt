@@ -1,1349 +1,432 @@
-ABeeZee
-Abel
-AbhayaLibre
-AbrilFatface
+ABee
+Abhaya
+Abril
 Aclonica
-Acme
-Actor
-Adamina
-AdventPro
-Agave
-AguafinaScript
-Aharoni Bold
+Aguafina
+Aharoni
 Akronim
 Aladin
 Aldhabi
-Aldrich
-Alef
 Alegreya
-AlegreyaSans
-AlegreyaSansSC
-AlegreyaSC
-AlexBrush
-AlfaSlabOne
-Alice
-Alike
-AlikeAngular
-Allan
 Allerta
-AllertaStencil
 Allura
 Almendra
-AlmendraDisplay
-AlmendraSC
 Amarante
-Amaranth
-AmaticaSC
-AmaticSC
-American Typewriter
+Amatic
+Amatica
 Amethysta
 Amiko
 Amiri
-Amita
-Anaheim
 Andada
-Andale Mono
 Andalus
 Andika
-Angkor
-Angsana New
-Angsana New Bold
-Angsana New Bold Italic
-Angsana New Italic
-AngsanaUPC
-AngsanaUPC Bold
-AngsanaUPC Bold Italic
-AngsanaUPC Italic
-AnnieUseYourTelescope
-AnonymicePro
-AnonymousPro
-Antic
-AnticDidone
-AnticSlab
-Anton
+Angsana
+Anonymice
 Aparajita
-Aparajita Bold
-Aparajita Bold Italic
-Aparajita Italic
-Apple Chancery
-Arabic Typesetting
 Arapey
-Arbutus
-ArbutusSlab
-ArchitectsDaughter
-ArchivoBlack
-ArchivoNarrow
-ArefRuqaa
+Archivo
+Aref
 Arial
-Arial Black
-Arial Bold
-Arial Bold Italic
-Arial Italic
-Arial Nova
-Arial Nova Bold
-Arial Nova Bold Italic
-Arial Nova Cond
-Arial Nova Cond Bold
-Arial Nova Cond Bold Italic
-Arial Nova Cond Italic
-Arial Nova Cond Light
-Arial Nova Cond Light Italic
-Arial Nova Italic
-Arial Nova Light
-Arial Nova Light Italic
-ArimaMadurai
-Arimo
+Arima
 Arizonia
-Armata
 Artifika
-Arvo
-Arya
-Asap
-Asar
-Asset
-Assistant
+ASister
 Astloch
 Asul
 Athiti
-Atma
-AtomicAge
-Aubrey
 Audiowide
-Aurulent
-AutourOne
-Average
-AverageSans
-AveriaGruesaLibre
-AveriaLibre
-AveriaSansLibre
-AveriaSerifLibre
-BadScript
+Autour
 Bahnschrift
-Baloo
-BalooBhai
-BalooBhaina
-BalooChettan
-BalooDa
-BalooPaaji
-BalooTamma
-BalooThambi
-Balthazar
-Bangers
-Basic
-Baskerville
+Baiti
+Bangla
 Batang
-BatangChe
-Battambang
 Baumans
 Bayon
 Bebas
-Belgrano
+Bedfort
 Belleza
-BenchNine
-Bentham
-BerkshireSwash
-Bevan
-Big Caslon
-BigBlueTerminal
-BigelowRules
-BigshotOne
-Bilbo
-BilboSwashCaps
-BioRhyme
-BioRhymeExpanded
+Bhaina
+Bigshot
 Biryani
-Bitstrom Wera
-Bitter
-BIZ UDGothic
-BIZ UDGothic Bold
-BIZ UDMincho Medium
-BIZ UDPGothic
-BIZ UDPGothic Bold
-BIZ UDPMincho Medium
-BlackOpsOne
+Bitstrom
 Blex
 Bokor
-Bonbon
-Boogaloo
-BowlbyOne
-BowlbyOneSC
-Brawler
-BreeSerif
-Browallia New
-Browallia New Bold
-Browallia New Bold Italic
-Browallia New Italic
-BrowalliaUPC
-BrowalliaUPC Bold
-BrowalliaUPC Bold Italic
-BrowalliaUPC Italic
-Brush Script
-BubblegumSans
-BubblerOne
-Buda
+Boli
+Bookletter
+Bowlby
+Bubblegum
 Buenard
-Bungee
-BungeeHairline
-BungeeInline
-BungeeOutline
-BungeeShade
 Busorama
 Butcherman
-ButterflyKids
-Cabin
-CabinCondensed
-CabinSketch
-CaesarDressing
-Cagliostro
-Cairo
 Calibri
-Calibri Bold
-Calibri Bold Italic
-Calibri Italic
-Calibri Light
-Calibri Light Italic
 Calligraffitti
-Cambay
 Cambo
-Cambria
-Cambria Bold
-Cambria Bold Italic
-Cambria Italic
-Cambria Math
 Candal
 Candara
-Candara Bold
-Candara Bold Italic
-Candara Italic
-Candara Light
-Candara Light Italic
 Cantarell
-CantataOne
-CantoraOne
-Capitals
-Capriola
-Cardo
-Carme
-CarroisGothic
-CarroisGothicSC
-CarterOne
-Cascadia
-Caskaydia Cove
-CaskaydiaCove
-Catamaran
-Caudex
-Caveat
-CaveatBrush
-CedarvilleCursive
-CevicheOne
-Changa
-ChangaOne
+Cantora
+Carrois
+Caskaydia
 Chango
-Charcoal
-Charter
 Chathura
-ChauPhilomeneOne
-ChelaOne
-ChelseaMarket
+Chau
 Chenla
-CherryCreamSoda
-CherrySwash
-Chewy
-Chicle
+Chettan
+Chey
 Chivo
 Chonburi
 Cinzel
-CinzelDecorative
-Clean
-ClickerScript
-Coda
-CodaCaption
-Code New Roman
 Codystar
-Coiny
-Combo
 Comfortaa
-Comic Sans MS
-Comic Sans MS Bold
-Comic Sans MS Bold Italic
-Comic Sans MS Italic
-Comic Shanns
-ComingSoon
-ConcertOne
-Condiment
 Consolas
-Consolas Bold
-Consolas Bold Italic
-Consolas Italic
-Constantia
-Constantia Bold
-Constantia Bold Italic
-Constantia Italic
-Content
-ContrailOne
-Convergence
-Cookie
-Copperplate
-Copse
-Corbel
-Corbel Bold
-Corbel Bold Italic
-Corbel Italic
-Corbel Light
-Corbel Light Italic
 Corben
-Cordia New
-Cordia New Bold
-Cordia New Bold Italic
-Cordia New Italic
-CordiaUPC
-CordiaUPC Bold
-CordiaUPC Bold Italic
-CordiaUPC Italic
-Cormorant
-CormorantGaramond
-CormorantInfant
-CormorantSC
-CormorantUnicase
-CormorantUpright
-Courgette
-Courier
-Courier New
-Courier New Bold
-Courier New Bold Italic
-Courier New Italic
 Cousine
 Coustard
-CoveredByYourGrace
-CraftyGirls
 Creepster
-CreteRound
-CrimsonText
-CroissantOne
-Crushed
-Cuprum
 Cutive
-CutiveMono
-DaddyTime
+Dafoe
 Damion
-DancingScript
 Dangrek
-DaunPenh
-David
-David Bold
-DavidLibre
-DawningofaNewDay
-DaysOne
-DejaVu Sans
-Dekko
-Delius
-DeliusSwashCaps
-DeliusUnicase
-DellaRespira
-DengXian
-DengXian Bold
-DengXian Light
-DenkOne
-Devonshire
-DFKai-SB
+Dawningofa
+Demibold
+Deng
+Denk
 Dhurjati
-DidactGothic
-DilleniaUPC
-DilleniaUPC Bold
-DilleniaUPC Bold Italic
-DilleniaUPC Italic
-Diplomata
-DiplomataSC
-DokChampa
-Domine
-DonegalOne
-DoppioOne
-Dorsa
-Dosis
+Didone
+Didot
+Digi
+Dok
 Dotum
-DotumChe
-Droid Sans
-DroidSans
-DroidSansMono
-DroidSerif
-DrSugiyama
-DuruSans
+Doulaise
+Droid
+Duru
 Dynalight
-EagleLake
-Eater
-EBGaramond
 Ebrima
-Ebrima Bold
 Economica
 Eczar
-EkMukta
 Electrolize
-ElMessiri
-Elsie
-ElsieSwashCaps
-EmblemaOne
-EmilysCandy
-Engagement
-Englebert
-Enriqueta
-Envy Code R
-EricaOne
-Esteban
-Estrangelo Edessa
-EucrosiaUPC
-EucrosiaUPC Bold
-EucrosiaUPC Bold Italic
-EucrosiaUPC Italic
-Euphemia
-EuphoriaScript
+Emilys
+Emoji
+Eucrosia
 Ewert
 Exo
-Exo2
-ExpletusSans
-FangSong
-Fantasque Sans
-FanwoodText
+Expletus
+Fajardose
 Farsan
-Fascinate
-FascinateInline
-FasterOne
 Fasthand
-FaunaOne
+Fatface
 Federant
 Federo
-Felipa
 Fenix
-FingerPaint
-Fira Code
-Fira Mono
-Fira Sans
-FiraCode
-FiraMono
-FiraSans
-Fixed
-FjallaOne
-FjordOne
-Flamenco
-Flavors
+Fira
+Fjalla
 Fondamento
-FontdinerSwanky
-Forum
-FrancoisOne
-Franklin Gothic Medium
-Franklin Gothic Medium Italic
-FrankRuehl
-FrankRuhlLibre
-FreckleFace
-FrederickatheGreat
-FredokaOne
-Freehand
-FreesiaUPC
-FreesiaUPC Bold
-FreesiaUPC Bold Italic
-FreesiaUPC Italic
+Fontdiner
+Frederickathe
+Fredoka
 Fresca
-Frijole
 Fruktur
-FugazOne
-Futura
-Gabriela
+Fugaz
 Gabriola
-Gadget
 Gadugi
-Gadugi Bold
 Gafata
 Galada
 Galdeano
 Galindo
 Gautami
-Gautami Bold
-GentiumBasic
-GentiumBookBasic
-Geo
-Georgia
-Georgia Bold
-Georgia Bold Italic
-Georgia Italic
-Georgia Pro
-Georgia Pro Black
-Georgia Pro Black Italic
-Georgia Pro Bold
-Georgia Pro Bold Italic
-Georgia Pro Cond
-Georgia Pro Cond Black
-Georgia Pro Cond Black Italic
-Georgia Pro Cond Bold
-Georgia Pro Cond Bold Italic
-Georgia Pro Cond Italic
-Georgia Pro Cond Light
-Georgia Pro Cond Light Italic
-Georgia Pro Cond Semibold
-Georgia Pro Cond Semibold Italic
-Georgia Pro Italic
-Georgia Pro Light
-Georgia Pro Light Italic
-Georgia Pro Semibold
-Georgia Pro Semibold Italic
 Geostar
-GeostarFill
-GermaniaOne
-GFSDidot
-GFSNeohellenic
+GFS
 Gidugu
-GildaDisplay
-Gill Sans
-Gill Sans Nova
-Gill Sans Nova Bold
-Gill Sans Nova Bold Italic
-Gill Sans Nova Cond
-Gill Sans Nova Cond Bold
-Gill Sans Nova Cond Bold Italic
-Gill Sans Nova Cond Italic
-Gill Sans Nova Cond Lt
-Gill Sans Nova Cond Lt Italic
-Gill Sans Nova Cond Ultra Bold
-Gill Sans Nova Cond XBd
-Gill Sans Nova Cond XBd Italic
-Gill Sans Nova Italic
-Gill Sans Nova Light
-Gill Sans Nova Light Italic
-Gill Sans Nova Ultra Bold
 Gisha
-Gisha Bold
-GiveYouGlory
-GlassAntiqua
 Glegoo
-GloriaHallelujah
-Go Mono
-GoblinOne
-GochiHand
+Gochi
 Gohu
 Gorditas
-GoudyBookletter1911
-Graduate
-GrandHotel
-GravitasOne
-GreatVibes
-Griffy
-Gruppo
-Gudea
+Gruesa
 Gulim
-GulimChe
 Gungsuh
-GungsuhChe
 Gurajada
 Habibi
-Hack
 Halant
-HammersmithOne
-Hanalei
-HanaleiFill
 Handlee
-Hanuman
-HappyMonkey
-Harmattan
 Hasklug
-HeadlandOne
-Heavy Data
 Heebo
-Helvetica
-Helvetica Neue
-HennyPenny
 Herculanum
-HerrVonMuellerhoff
-Hind
-HindGuntur
-HindMadurai
-HindSiliguri
-HindVadodara
 Hiragino
-Hoefler Text
-Hoefler Text Ornaments
-HoloLens MDL2 Assets
-HoltwoodOneSC
-HomemadeApple
+HKSCS
+Hoefler
+Holo
 Homenaje
 Hurmit
-Iceberg
-Iceland
-iM-Writing
-IMFellDoublePica
-IMFellDoublePicaSC
-IMFellDWPica
-IMFellDWPicaSC
-IMFellEnglish
-IMFellEnglishSC
-IMFellFrenchCanon
-IMFellFrenchCanonSC
-IMFellGreatPrimer
-IMFellGreatPrimerSC
-Impact
 Imprima
 Inconsolata
-Inconsolata Go
-Inconsolata LGC
 Inder
-IndieFlower
 Inika
-Ink Free
-InknutAntiqua
-Intone Mono
+Inimai
+Inknut
 Iosevka
-Iosevka Term
-IrishGrover
-IrisUPC
-IrisUPC Bold
-IrisUPC Bold Italic
-IrisUPC Italic
-Iskoola Pota
-Iskoola Pota Bold
-IstokWeb
+Iskoola
+Istok
 Italiana
 Italianno
 Itim
-JacquesFrancois
-JacquesFrancoisShadow
 Jaldi
-JasmineUPC
-JasmineUPC Bold
-JasmineUPC Bold Italic
-JasmineUPC Italic
-Javanese Text
-JetBrains
-JimNightshade
-JockeyOne
-JollyLodger
+Jheng
 Jomhuria
-JosefinSans
-JosefinSlab
-JotiOne
-Judson
-Julee
-JuliusSansOne
+Josefin
+Joti
 Junge
-Jura
-JustAnotherHand
-JustMeAgainDownHere
 Kadwa
-KaiTi
-Kalam
-Kalinga
-Kalinga Bold
+Kaffeesatz
 Kameron
 Kanit
 Kantumruy
-Karla
-Karma
 Kartika
-Kartika Bold
 Katibeh
-KaushanScript
+Kaushan
 Kavivanar
 Kavoon
-KdamThmor
-KeaniaOne
-KellySlab
+Kdam
+Keania
 Kenia
 Khand
-Khmer
-Khmer UI
-Khmer UI Bold
-Khula
-KiteOne
 Knewave
-KodchiangUPC
-KodchiangUPC Bold
-KodchiangUPC Bold Italic
-KodchiangUPC Italic
-Kokila
-Kokila Bold
-Kokila Bold Italic
-Kokila Italic
-KottaOne
+Kodchiang
 Koulen
 Kranky
 Kreon
-Kristi
-KronaOne
-KumarOne
-KumarOneOutline
+Krushnadevaraya
+Kufi
 Kurale
-LaBelleAurore
+Kyokasho
 Laila
-LakkiReddy
+Lakki
 Lalezar
-Lancelot
-Lao UI
-Lao UI Bold
+Laren
 Lateef
 Latha
-Latha Bold
 Lato
-LeagueScript
-LeckerliOne
-Ledger
+Leckerli
 Leelawadee
-Leelawadee Bold
-Leelawadee UI
-Leelawadee UI Bold
-Leelawadee UI Semilight
 Lekton
-Lemon
 Lemonada
-Levenim MT
-Levenim MT Bold
-LibreBaskerville
-LibreFranklin
-LifeSavers
+Levenim
+LGC
 Lilex
-LilitaOne
-LilyScriptOne
-LilyUPC
-LilyUPC Bold
-LilyUPC Bold Italic
-LilyUPC Italic
-Limelight
-LindenHill
-Literation
-Lobster
-LobsterTwo
-LondrinaOutline
-LondrinaShadow
-LondrinaSketch
-LondrinaSolid
-Lora
-LovedbytheKing
-LoversQuarrel
-LoveYaLikeASister
-Lucida
-Lucida bright
-Lucida Console
-Lucida Grande
-Lucida Sans Unicode
-Lucida Typewriter
-LuckiestGuy
+Lilita
+Lligat
+Lovedbythe
 Lusitana
 Lustria
 Macondo
-MacondoSwashCaps
-Mada
 Magra
-MaidenOrange
+Maguntia
 Maitree
-Mako
-Malgun Gothic
-Malgun Gothic Bold
-Malgun Gothic Semilight
+Majalla
+Malgun
 Mallanna
 Mandali
-Mangal
-Mangal Bold
-Marcellus
-MarcellusSC
-MarckScript
-Margarine
-Marker Felt
-MarkoOne
+Marck
 Marlett
 Marmelad
-Martel
-MartelSans
-Marvel
-Mate
-MateSC
-MavenPro
-McLaren
+MDL
 Meddon
-MedievalSharp
-MedulaOne
-MeeraInimai
-Megrim
-MeieScript
+Meera
+Meie
 Meiryo
-Meiryo Bold
-Meiryo Bold Italic
-Meiryo Italic
-Meiryo UI
-Meiryo UI Bold
-Meiryo UI Bold Italic
-Meiryo UI Italic
-Menlo
 Merienda
-MeriendaOne
 Merriweather
-MerriweatherSans
 Meslo
-Metal
-MetalMania
-Metamorphous
+Messiri
 Metrophobic
 Michroma
-Microsoft Himalaya
-Microsoft JhengHei
-Microsoft JhengHei Bold
-Microsoft JhengHei Light
-Microsoft JhengHei UI
-Microsoft JhengHei UI Bold
-Microsoft JhengHei UI Light
-Microsoft New Tai Lue
-Microsoft New Tai Lue Bold
-Microsoft PhagsPa
-Microsoft PhagsPa Bold
-Microsoft Sans Serif
-Microsoft Tai Le
-Microsoft Tai Le Bold
-Microsoft Uighur
-Microsoft Uighur Bold
-Microsoft YaHei
-Microsoft YaHei Bold
-Microsoft YaHei Light
-Microsoft YaHei UI
-Microsoft YaHei UI Bold
-Microsoft YaHei UI Light
-Microsoft Yi Baiti
+Microsoft
 Milonga
-Miltonian
-MiltonianTattoo
-MingLiU
-MingLiU_HKSCS
-MingLiU_HKSCS-ExtB
-MingLiU-ExtB
-Minion Web
-Miniver
-Miriam
-Miriam Fixed
-MiriamLibre
-Mirza
-MissFajardose
+Mincho
 Mitr
 Modak
-ModernAntiqua
 Mogra
 Molengo
-Molle
-Monda
-Mongolian Baiti
 Monofett
 Monofur
-Monoid
 Mononoki
 Monoton
-MonsieurLaDoulaise
 Montaga
 Montez
-Montserrat
-MontserratAlternates
-MontserratSubrayada
-MoolBoran
-Moul
 Moulpali
-MountainsofChristmas
-MouseMemoirs
-MrBedfort
-MrDafoe
-MrDeHaviland
-MrsSaintDelafield
-MrsSheppards
-MS Gothic
-MS Mincho
-MS PGothic
-MS PMincho
-MS UI Gothic
-MuktaVaani
+Mountainsof
+Muellerhoff
+Mukta
 Muli
-MV Boli
-Myanmar Text
-Myanmar Text Bold
-MysteryQuest
+Myanmar
 Narkisim
+Neohellenic
 Neucha
-Neue Haas Grotesk Text Pro
-Neue Haas Grotesk Text Pro Bold
-Neue Haas Grotesk Text Pro Bold Italic
-Neue Haas Grotesk Text Pro Italic
-Neue Haas Grotesk Text Pro Medium
-Neue Haas Grotesk Text Pro Medium Italic
+Neue
 Neuton
-New Century Schoolbook
-NewRocker
-NewsCycle
 Niconne
-Nirmala UI
-Nirmala UI Bold
-Nirmala UI Semilight
-NixieOne
-Nobile
+Nirmala
 Nokora
 Norican
 Nosifer
-NothingYouCouldDo
-NoticiaText
+Noticia
 Noto
-Noto Sans
-Noto Serif
-NotoSans
-NotoSerif
-NovaCut
-NovaFlat
-NovaMono
-NovaOval
-NovaRound
-NovaScript
-NovaSlim
-NovaSquare
-NSimSun
-NTR
+NSim
 Numans
 Nunito
-Nyala
-OdorMeanChey
-Offside
-Oldenburg
-OldStandardTT
-OleoScript
-OleoScriptSwashCaps
-OpenDyslexic
-OpenSans
-OpenSansCondensed
-Optima
 Oranienbaum
 Orbitron
-Oregano
 Orienta
-OriginalSurfer
-Osaka
-Oswald
-Overlock
-OverlockSC
-Overpass
-OvertheRainbow
+Overthe
 Ovo
-Oxygen
-OxygenMono
-Pacifico
-Palanquin
-PalanquinDark
+Paaji
 Palatino
-Palatino Linotype
-Palatino Linotype Bold
-Palatino Linotype Bold Italic
-Palatino Linotype Italic
-Paprika
-Papyrus
-Parisienne
-PasseroOne
-PassionOne
-PathwayGothicOne
-PatrickHand
-PatrickHandSC
+Passero
 Pattaya
-PatuaOne
+Patua
 Pavanam
-PaytoneOne
+Paytone
 Peddana
-Peralta
-PermanentMarker
-PetitFormalScript
 Petrona
-Philosopher
-Piedra
-PinyonScript
-PirataOne
-Plantagenet Cherokee
-Plaster
-Play
+PGothic
+Phags
+Philomene
+Pirata
 Playball
-PlayfairDisplay
-PlayfairDisplaySC
-PMingLiU
-PMingLiU-ExtB
+PMincho
+PMing
 Podkova
-PoiretOne
-PollerOne
-Poly
+Poiret
 Pompiere
-PontanoSans
+Pontano
 Poppins
-PortLligatSans
-PortLligatSlab
-PragatiNarrow
+Pota
+Pragati
 Prata
 Preahvihear
-PressStart2P
 Pridi
-PrincessSofia
 Prociono
-ProFont
-ProggyClean
-Prompt
-ProstoOne
-ProzaLibre
-PTMono
-PTSans
-PTSansCaption
-PTSansNarrow
-PTSerif
-PTSerifCaption
-Puritan
-PurplePurse
-Quando
-Quantico
-Quattrocento
-QuattrocentoSans
+Proggy
+Prosto
+Proza
 Questrial
-Quicksand
-Quintessential
 Qwigley
 Raavi
-Raavi Bold
-RacingSansOne
-Radley
 Rajdhani
 Rakkas
 Raleway
-RalewayDots
 Ramabhadra
 Ramaraja
-Rambla
-RammettoOne
-Ranchers
-Rancho
+Rammetto
 Ranga
-Rasa
-Rationale
-RaviPrakash
-Redressed
-ReemKufi
-ReenieBeanie
+Reenie
+Respira
 Revalia
-RhodiumLibre
 Ribeye
-RibeyeMarrow
-Righteous
-Risque
 Roboto
-RobotoCondensed
-RobotoMono
-RobotoSlab
-Rochester
-RockSalt
-Rockwell Nova
-Rockwell Nova Bold
-Rockwell Nova Bold Italic
-Rockwell Nova Cond
-Rockwell Nova Cond Bold
-Rockwell Nova Cond Bold Italic
-Rockwell Nova Cond Italic
-Rockwell Nova Cond Light
-Rockwell Nova Cond Light Italic
-Rockwell Nova Extra Bold
-Rockwell Nova Extra Bold Italic
-Rockwell Nova Italic
-Rockwell Nova Light
-Rockwell Nova Light Italic
-Rod
 Rokkitt
 Romanesco
-RopaSans
-Rosario
+Ropa
 Rosarivo
-RougeScript
-RozhaOne
+Rozha
 Rubik
-RubikMonoOne
-RubikOne
 Ruda
-Rufina
-RugeBoogie
+Ruehl
+Ruge
 Ruluko
-RumRaisin
-RuslanDisplay
-RussoOne
-Ruthie
-Rye
-Sacramento
+Ruqaa
+Ruslan
 Sahitya
-Sail
-Sakkal Majalla
-Sakkal Majalla Bold
-Salsa
-Sanchez
+Sakkal
 Sancreek
-Sand
-SansitaOne
-Sanskrit Text
+Sansita
 Sarala
-Sarina
-Sarpanch
-Satisfy
-Sauce Code
 Scada
-Scheherazade
 Schoolbell
-ScopeOne
-SeaweedScript
-SecularOne
 Segoe
-Segoe MDL2 Assets
-Segoe Print
-Segoe Print Bold
-Segoe Script
-Segoe Script Bold
-Segoe UI
-Segoe UI Black
-Segoe UI Black Italic
-Segoe UI Bold
-Segoe UI Bold Italic
-Segoe UI Emoji
-Segoe UI Historic
-Segoe UI Italic
-Segoe UI Light
-Segoe UI Light Italic
-Segoe UI Semibold
-Segoe UI Semibold Italic
-Segoe UI Semilight
-Segoe UI Semilight Italic
-Segoe UI Symbol
+Semilight
 Sevillana
-SeymourOne
-ShadowsIntoLight
-ShadowsIntoLightTwo
-Shanti
-Share
-ShareTech
-ShareTechMono
+Shanns
+Sheppards
 Shojumaru
-Shonar Bangla
-Shonar Bangla Bold
-ShortStack
+Shonar
 Shrikhand
-Shruti
-Shruti Bold
-Shure Tech Mono
-Siemreap
-SigmarOne
+Sigmar
 Signika
-SignikaNegative
-SimHei
-Simonetta
-Simplified Arabic
-Simplified Arabic Bold
-Simplified Arabic Fixed
-SimSun
-SimSun-ExtB
+Siliguri
 Sintony
-SirinStencil
-Sitka Banner
-Sitka Banner Bold
-Sitka Banner Bold Italic
-Sitka Banner Italic
-Sitka Display
-Sitka Display Bold
-Sitka Display Bold Italic
-Sitka Display Italic
-Sitka Heading
-Sitka Heading Bold
-Sitka Heading Bold Italic
-Sitka Heading Italic
-Sitka Small
-Sitka Small Bold
-Sitka Small Bold Italic
-Sitka Small Italic
-Sitka Subheading
-Sitka Subheading Bold
-Sitka Subheading Bold Italic
-Sitka Subheading Italic
-Sitka Text
-Sitka Text Bold
-Sitka Text Bold Italic
-Sitka Text Italic
-SixCaps
+Sirin
 Skia
 Skranji
-Slabo13px
-Slabo27px
+Slabo
 Slackey
 Smokum
-Smythe
 Sniglet
-Snippet
-SnowburstOne
-SofadiOne
-Sofia
-SonsieOne
-SortsMillGoudy
-SourceCodePro
-SourceSansPro
-SourceSerifPro
-Space Mono
-SpaceMono
-SpecialElite
-SpicyRice
-Spinnaker
+Snowburst
+Sofadi
 Spirax
-SquadaOne
-SreeKrushnadevaraya
+Squada
+Sree
 Sriracha
-Stalemate
-StalinistOne
-StardosStencil
-StintUltraCondensed
-StintUltraExpanded
-Stoke
-Strait
-SueEllenFrancisco
-SuezOne
+Stardos
+Subrayada
+Sugiyama
 Sumana
 Sunshiney
-SupermercadoOne
-Sura
+Supermercado
 Suranna
 Suravaram
 Suwannaphum
-SwankyandMooMoo
+Swankyand
 Sylfaen
-Symbol
-Syncopate
 Tahoma
-Tahoma Bold
-Tangerine
 Taprom
-Tauri
 Taviraj
 Techno
 Teko
-Telex
-TenaliRamakrishna
-TenorSans
-Terminal
+Tenali
 Terminess
-Textile
-TextMeOne
-TheGirlNextDoor
+Thambi
+Thmor
 Tienne
 Tillana
-Times
-Times New Roman
-Times New Roman Bold
-Times New Roman Bold Italic
-Times New Roman Italic
 Timmana
 Tinos
-TitanOne
-TitilliumWeb
-TradeWinds
-Traditional Arabic
-Traditional Arabic Bold
-Trebuchet MS
-Trebuchet MS Bold
-Trebuchet MS Bold Italic
-Trebuchet MS Italic
+Titillium
 Trirong
 Trocchi
 Trochut
 Trykker
-TulpenOne
-Tunga
-Tunga Bold
+Tulpen
 Ubuntu
-UbuntuCondensed
-UbuntuMono
-UD Digi Kyokasho N-B
-UD Digi Kyokasho N-R
-UD Digi Kyokasho NK-B
-UD Digi Kyokasho NK-R
-UD Digi Kyokasho NP-B
-UD Digi Kyokasho NP-R
-Ultra
-UncialAntiqua
-Underdog
-UnicaOne
-UnifrakturCook
-UnifrakturMaguntia
-Unkempt
-Unlock
+Unica
+Unicase
+Unicode
+Unifraktur
 Unna
-Urdu Typesetting
-Urdu Typesetting Bold
-Utopia
 Utsaah
-Utsaah Bold
-Utsaah Bold Italic
-Utsaah Italic
-VampiroOne
-Vani
-Vani Bold
+Vaani
+Vampiro
 Varela
-VarelaRound
-VastShadow
 Verdana
-Verdana Bold
-Verdana Bold Italic
-Verdana Italic
-Verdana Pro
-Verdana Pro Black
-Verdana Pro Black Italic
-Verdana Pro Bold
-Verdana Pro Bold Italic
-Verdana Pro Cond
-Verdana Pro Cond Black
-Verdana Pro Cond Black Italic
-Verdana Pro Cond Bold
-Verdana Pro Cond Bold Italic
-Verdana Pro Cond Italic
-Verdana Pro Cond Light
-Verdana Pro Cond Light Italic
-Verdana Pro Cond SemiBold
-Verdana Pro Cond SemiBold Italic
-Verdana Pro Italic
-Verdana Pro Light
-Verdana Pro Light Italic
-Verdana Pro SemiBold
-Verdana Pro SemiBold Italic
-VesperLibre
 Vibur
-Victor
 Vidaloka
-Viga
 Vijaya
-Vijaya Bold
-Voces
 Volkhov
 Vollkorn
-Voltaire
 Vrinda
-Vrinda Bold
-VT323
-WaitingfortheSunrise
+Waitingforthe
 Wallpoet
-WalterTurncoat
 Warnes
 Webdings
 Wellfleet
-WendyOne
-Wingdings
-WireOne
-WorkSans
-YanoneKaffeesatz
+XBd
+Yanone
 Yantramanav
-YatraOne
-Yellowtail
-YesevaOne
-Yesteryear
+Yatra
+Yeseva
 Yrsa
 Ysabeau
-Yu Gothic Bold
-Yu Gothic Light
-Yu Gothic Medium
-Yu Gothic Regular
-Yu Gothic UI Bold
-Yu Gothic UI Light
-Yu Gothic UI Regular
-Yu Gothic UI Semibold
-Yu Gothic UI Semilight
-Yu Mincho Demibold
-Yu Mincho Light
-Yu Mincho Regular
-Zapf Dingbats
+Zapf
 Zapfino
 Zeyada

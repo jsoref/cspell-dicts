@@ -1,13 +1,9 @@
-# Gaming Terms
-Aggro
 Aimbot
-Buff
 Cutscene
 DBNO
 Deathmatch
 Debuff
 Despawn
-Diggable
 Faceroll
 Gamebattles
 GLHF
@@ -17,8 +13,6 @@ Hitpoint
 Hitscan
 JRPG
 Leaderboard
-Mana
-Matchmaking
 Minecraft
 MMORPG
 MOBA
@@ -26,14 +20,11 @@ Nerf
 Noob
 Permadeath
 Ragequit
-Scrub
 Sidequest
 Smurf
 Speedrun
 Trickshot
 Tryhard
 Unban
-Unranked
 Untimeout
 Wallhack
-Walling
